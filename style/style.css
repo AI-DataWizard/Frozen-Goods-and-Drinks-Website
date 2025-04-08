@@ -1,6 +1,6 @@
 @font-face {
   font-family: font;
-  src: url("/fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+  src: url("/Frozen-Goods-and-Drinks-Website/fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
 }
 * {
   font-family: font;
@@ -195,7 +195,7 @@ section {
 /*/Header Section*/
 /*Home Section*/
 .home {
-  background: url("/assets/glaceo-home-bg.jpg") no-repeat;
+  background: url("/Frozen-Goods-and-Drinks-Website/assets/glaceo-home-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
