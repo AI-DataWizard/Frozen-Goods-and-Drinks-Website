@@ -282,6 +282,28 @@ section {
   margin-top: 4rem;
   margin-left: 3rem;
 }
+.menu .menu-controls {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 55rem;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+.menu .menu-controls li {
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 1.4rem 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #333;
+  width: 15rem;
+}
+.menu .menu-controls li:hover, .menu .menu-controls li.active {
+  background: #a7c7e7;
+  color: #fff;
+}
 .menu .menu-slider {
   display: flex;
   align-items: center;
