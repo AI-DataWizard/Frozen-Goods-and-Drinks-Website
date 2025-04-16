@@ -343,6 +343,32 @@ section {
     margin-left: 3rem;
   }
 
+    .menu-controls {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55rem;
+    gap: 2rem;
+    margin: 2rem auto;
+
+    li {
+      border: $border;
+      padding: 1.4rem 2rem;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.6rem;
+      color: $black;
+      width: 15rem;
+
+      &:hover,
+      &.active {
+        background: $pri;
+        color: $white;
+      }
+    }
+  }
+
   .menu-slider {
     display: flex;
     align-items: center;
